@@ -4,9 +4,15 @@ public class Main {
     private Scanner readLine = new Scanner(System.in);
     public int menu(){
         System.out.println(" -- Calculator -- ");
-        System.out.println("Choose: "
-                + "\n0 - Exit\n1 - Add\n2 - Subtract\n3 - Multiply" +
-                "\n4 - Divide\n5 - Sqrt\n6 - Power");
+        System.out.println("""
+                Choose:\s
+                0 - Exit
+                1 - Add
+                2 - Subtract
+                3 - Multiply
+                4 - Divide  
+                5 - Sqrt
+                6 - Power""");
         System.out.println("Please, insert chosen option: ");
         int choice = -1;
         choice = readLine.nextInt();
